@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisableIntro", "src\DisableIntro\DisableIntro.csproj", "{EA76943D-C265-4E03-9386-FC244A8010BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA76943D-C265-4E03-9386-FC244A8010BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA76943D-C265-4E03-9386-FC244A8010BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA76943D-C265-4E03-9386-FC244A8010BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA76943D-C265-4E03-9386-FC244A8010BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF3AA673-8C33-4698-AC1E-E61CE8CBE8F8}
+	EndGlobalSection
+EndGlobal

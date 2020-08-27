@@ -12,7 +12,7 @@ namespace DisableIntro
         }
 
         [HarmonyPostfix, HarmonyPatch(typeof(TitleScreenAnimation), "Awake")]
-        private static void Patch1(TitleScreenAnimation __instance)
+        private static void DisableLogos(TitleScreenAnimation __instance)
         {
             var instance = Traverse.Create(__instance);
             instance.Field("_gamepadSplash").SetValue(false);
@@ -21,7 +21,7 @@ namespace DisableIntro
         }
 
         [HarmonyPrefix, HarmonyPatch(typeof(TitleAnimationController), "Awake")]
-        private static void Patch2(TitleAnimationController __instance)
+        private static void DisableFade(TitleAnimationController __instance)
         {
             var instance = Traverse.Create(__instance);
             instance.Field("_logoFadeDelay").SetValue(0.001f);
